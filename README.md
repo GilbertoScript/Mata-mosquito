@@ -1,2 +1,3 @@
-# Mata-mosquito
-Mata mosquito é um jogo feito a base de HTML, CSS e JavaScript, utilizando conceitos mais complexos de JavaScript
+Mata mosquito, jogo feito no curso de desenvolvimento web completo da udemy
+
+🔨 Em construção 🔨
