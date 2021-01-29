@@ -1,4 +1,44 @@
 .mosquito-1 {
+    width: 40px;
+    height: 40px;
+}
+
+.mosquito-2 {
     width: 50px;
     height: 50px;
+}
+
+.mosquito-3 {
+    width: 75px;
+    height: 75px;
+}
+
+.mosquito-4 {
+    width: 100px;
+    height: 100px;
+}
+
+.mosquito-5 {
+    width: 125px;
+    height: 125px;
+}
+
+.mosquito-6 {
+    width: 150px;
+    height: 150px;
+    opacity: 0.5;
+}
+
+.mosquito-7 {
+    width: 75px;
+    height: 75px;
+    opacity: 0.5;
+}
+
+.lado-a {
+    transform: scaleX(1);
+}
+
+.lado-b {
+    transform: scaleX(-1);
 }
