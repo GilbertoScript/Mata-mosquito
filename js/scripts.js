@@ -12,6 +12,11 @@ function ajustaTamanhoPalcoJogo() {
 ajustaTamanhoPalcoJogo()
 
 function posicaoRandomica() {
+    // Remover o mosquito anterior caso exista
+    if(document.getElementById('mosquito')) {
+        document.getElementById('mosquito').remove()
+    }
+
     // Criação de posições randômicas
     var positionX = Math.floor(Math.random() * width) - 90
     var positionY = Math.floor(Math.random() * height) - 90
@@ -35,6 +40,9 @@ function posicaoRandomica() {
 
     // Transforma a posição do elemento em abosluta, para que possa percorrer o body livremente, sem se basear nas suas próprias limitações
     mosquito.style.position = 'absolute'
+
+    // Criação de um id para o elemento html
+    mosquito.id = 'mosquito'
 
     // Inserir no arquivo html o novo elemento
     document.body.appendChild(mosquito)
@@ -89,3 +97,9 @@ function ladoAleatorio() {
 
     }
 }
+
+// Criação do setInterval que a cada 1000 milissegundos(1 segundo) executa uma função, e essa função por sua vez chama a função posicaoRandomica() gerando automaticamente ná pagina web os mosquitos(elementos), de uma forma aleatória
+setInterval(function() {
+    posicaoRandomica()
+
+}, 1000)
