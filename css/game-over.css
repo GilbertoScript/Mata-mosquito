@@ -1,0 +1,41 @@
+.myButton {
+	box-shadow: 0px 10px 14px -7px #9fb4f2;
+	background-color:#7892c2;
+	border-radius:14px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:20px;
+	font-weight:bold;
+	padding:20px 20px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    margin-top: -100px;
+    transition: 0.5s;
+}
+.myButton:hover {
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+body {
+	background:url('https://i.pinimg.com/originals/b6/a4/be/b6a4bebd4e179141ca2e0003fc783c06.jpg') rgba(0, 0, 0, 0.3);
+    min-height:100%;
+    background-size:cover;
+	background-blend-mode: multiply;
+	background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    /* padding: 100px 0; */
+    background-position: 30% 45%;
+    background-size: cover;
+    margin: 0;
+
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
