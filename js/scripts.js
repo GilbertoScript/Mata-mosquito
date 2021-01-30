@@ -1,6 +1,7 @@
 // Ajustando as dimensões do palco do jogo
 var height = 0
 var width = 0
+var vidas = 1
 
 function ajustaTamanhoPalcoJogo() {
     width = window.innerWidth
@@ -15,6 +16,14 @@ function posicaoRandomica() {
     // Remover o mosquito anterior caso exista
     if(document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
+
+        if(vidas > 3) {
+            window.location.href = 'game-over.html'
+
+        } else {
+            document.getElementById('v' + vidas).src = './img/coracao_vazio.png'
+            vidas++
+        }
     }
 
     // Criação de posições randômicas
@@ -43,6 +52,11 @@ function posicaoRandomica() {
 
     // Criação de um id para o elemento html
     mosquito.id = 'mosquito'
+
+    // Criação do evento onclick no elemento
+    mosquito.onclick = function() {
+        this.remove()
+    }
 
     // Inserir no arquivo html o novo elemento
     document.body.appendChild(mosquito)
@@ -102,4 +116,4 @@ function ladoAleatorio() {
 setInterval(function() {
     posicaoRandomica()
 
-}, 1000)
+}, 1100)
