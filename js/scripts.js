@@ -2,6 +2,7 @@
 var height = 0
 var width = 0
 var vidas = 1
+var tempo = 10
 
 function ajustaTamanhoPalcoJogo() {
     width = window.innerWidth
@@ -11,6 +12,21 @@ function ajustaTamanhoPalcoJogo() {
 }
 
 ajustaTamanhoPalcoJogo()
+
+// Criação do cronometro e redirecionamento para a página de vitória
+var cronometro = setInterval(function() {
+    if(tempo < 0) {
+        clearInterval(cronometro)
+        clearInterval(criaMosquito)
+        window.location.href = 'vitoria.html'
+
+    } else {
+        document.getElementById('cronometro').innerHTML = tempo
+    }
+    
+    tempo -= 1
+
+}, 1000)
 
 function posicaoRandomica() {
     // Remover o mosquito anterior caso exista
@@ -113,7 +129,7 @@ function ladoAleatorio() {
 }
 
 // Criação do setInterval que a cada 1000 milissegundos(1 segundo) executa uma função, e essa função por sua vez chama a função posicaoRandomica() gerando automaticamente ná pagina web os mosquitos(elementos), de uma forma aleatória
-setInterval(function() {
+var criaMosquito = setInterval(function() {
     posicaoRandomica()
 
 }, 1100)
