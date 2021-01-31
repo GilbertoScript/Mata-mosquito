@@ -24,7 +24,7 @@
 }
 
 body {
-	background:url('https://i.pinimg.com/originals/b6/a4/be/b6a4bebd4e179141ca2e0003fc783c06.jpg') rgba(0, 0, 0, 0.3);
+	background:url('../img/bg1.jpg') rgba(0, 0, 0, 0.3);
     min-height:100%;
     background-size:cover;
 	background-blend-mode: multiply;
