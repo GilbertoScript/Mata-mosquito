@@ -42,3 +42,7 @@ Ou então
 ```
 Faça o download do repositório e execute index.html
 ```
+
+### 📃 Licença
+
+Este projeto está sobre a licença MIT
