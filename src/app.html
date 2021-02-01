@@ -1,30 +1,28 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/mosquito.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/mosquito.png" type="image/x-icon" />
     <title>Mata mosquito</title>
-</head>
-<body onresize="ajustaTamanhoPalcoJogo()">
-
+  </head>
+  <body onresize="ajustaTamanhoPalcoJogo()">
     <div class="painel">
-        <div class="vidas">
-            <img id="v1" src="img/coracao_cheio.png" alt="Coração ">
-            <img id="v2" src="img/coracao_cheio.png" alt="Coração cheio">
-            <img id="v3" src="img/coracao_cheio.png" alt="Coração cheio">
-        </div>
+      <div class="vidas">
+        <img id="v1" src="img/coracao_cheio.png" alt="Coração " />
+        <img id="v2" src="img/coracao_cheio.png" alt="Coração cheio" />
+        <img id="v3" src="img/coracao_cheio.png" alt="Coração cheio" />
+      </div>
 
-        <div class="cronometro">
-            Tempo restante: <span id="cronometro"></span>
-        </div>
+      <div class="cronometro">
+        Tempo restante: <span id="cronometro"></span>
+      </div>
     </div>
 
     <script src="./js/scripts.js">
-    
-        document.getElementById('cronometro').innerHTML = tempo
 
+      document.getElementById('cronometro').innerHTML = tempo
     </script>
-</body>
+  </body>
 </html>

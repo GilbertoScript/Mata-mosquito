@@ -22,6 +22,7 @@
     <!-- Css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/game-over.css" />
+
     <title>Mata mosquito</title>
   </head>
   <body>
@@ -29,25 +30,41 @@
       <div class="row">
         <div class="col">
           <div class="d-flex justify-content-center">
-            <img src="img/vitoria.png" alt="Imagem vitória" />
+            <img src="img/game.png" alt="Imagem vitória" />
           </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col">
+          <div class="d-flex justify-content-center">
+            <div class="select">
+              <select class="form-control" id="nivel">
+                <option value="">-- Selecione o nível --</option>
+                <option value="facil">Fácil</option>
+                <option value="normal">Normal</option>
+                <option value="dificil">Difícil</option>
+                <option value="chucknorris">Chuck Norris</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3">
+        <div class="col">
           <div class="d-flex justify-content-center align-items-center">
-            <button
-              href="#"
-              class="myButton"
-              onclick="window.location.href= 'index.html' "
-            >
-              Novo Jogo
+            <button href="#" class="inicio mr-5" onclick="iniciarJogo()">
+              Iniciar Jogo
             </button>
+
+            <button href="#" class="inicio">Sobre o Jogo</button>
           </div>
         </div>
       </div>
     </div>
+
+    <script src="./js/inicio.js"></script>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
