@@ -1,0 +1,117 @@
+html {
+  cursor: url("../img/mata_mosquito.png") 30 30, auto;
+}
+
+body {
+  background: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  /* padding: 100px 0; */
+  background-position: 30% 45%;
+  background-size: cover;
+  margin: 0;
+
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.painel {
+  position: absolute;
+  width: 190px;
+  padding: 10px;
+  bottom: 0px;
+  border-top: 1px solid white;
+  background: white;
+  opacity: 0.7;
+  border-radius: 0 13px 0 0;
+}
+
+.vidas {
+  margin-top: 10px;
+}
+
+.cronometro {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.select {
+  margin-top: -50px;
+}
+
+/* Botão */
+
+.inicio {
+  box-shadow: 0px 10px 14px -7px #9fb4f2;
+  background-color: #7892c2;
+  border-radius: 14px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  margin-top: -20px;
+  transition: 0.5s;
+}
+.inicio:hover {
+  background-color: #476e9e;
+  text-decoration: none;
+  color: #ffffff;
+}
+.inicio:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Tipos de mosquito */
+
+.mosquito-1 {
+  width: 50px;
+  height: 50px;
+}
+
+.mosquito-2 {
+  width: 60px;
+  height: 60px;
+}
+
+.mosquito-3 {
+  width: 75px;
+  height: 75px;
+}
+
+.mosquito-4 {
+  width: 100px;
+  height: 100px;
+}
+
+.mosquito-5 {
+  width: 125px;
+  height: 125px;
+}
+
+.mosquito-6 {
+  width: 150px;
+  height: 150px;
+  opacity: 0.5;
+}
+
+.mosquito-7 {
+  width: 75px;
+  height: 75px;
+  opacity: 0.5;
+}
+
+.lado-a {
+  transform: scaleX(1);
+}
+
+.lado-b {
+  transform: scaleX(-1);
+}
