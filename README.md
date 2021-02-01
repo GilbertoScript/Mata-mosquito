@@ -45,4 +45,4 @@ Faça o download do repositório e execute index.html
 
 ### 📃 Licença
 
-Este projeto está sobre a licença MIT
+Este projeto está sobre a licença <a href="https://github.com/GilbertoASJ/Mata-mosquito/blob/main/LICENSE">MIT</a>
