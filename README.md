@@ -8,6 +8,8 @@
 O jogo Mata mosquito, é um jogo desenvolvido durante o Curso de Desenvolvimento Web Completo da Udemy.
 Feito para a prática do conteúdo JavaScript.
 
+O jogo tem como objetivo matar os mosquitos que irão aparecer na tela, e tem 4 níveis de dificuldade
+
 ### 🎨 Detalhe
 
 Realizei diversas implementações e alterações no aplicativo.
