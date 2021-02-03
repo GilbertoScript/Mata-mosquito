@@ -26,7 +26,7 @@ Abra um pull request
 
 ### 💻 Tecnologias utilizadas
 
-Nesta Calculadora Javascript foram utilizadas as seguintes tecnologias
+Neste aplicativo
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
