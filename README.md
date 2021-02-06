@@ -26,7 +26,7 @@ Abra um pull request
 
 ### 💻 Tecnologias utilizadas
 
-Neste aplicativo
+Neste aplicativo foram utilizadas as seguintes tecnologias:
 
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
