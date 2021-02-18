@@ -12,7 +12,7 @@ O jogo tem como objetivo matar os mosquitos que irão aparecer na tela, e tem 4 
 
 ### 🎨 Detalhe
 
-Realizei diversas implementações e alterações no aplicativo.
+Realizei diversas implementações e alterações em relação a idéia inicial do game.
 
 <hr>
 
